@@ -76,7 +76,7 @@ const CampsiteInfoScreen = ({ route }) => {
                 }
             />
             <Modal
-                animationType={'slide'}
+                animationType='slide'
                 transparent={false}
                 visible={showModal}
                 onRequestClose={() => setShowModal(!showModal)}
